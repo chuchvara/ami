@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DimiFFT\\Ami\\": "src"
+            "Enniel\\Ami\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DimiFFT\\Ami\\Tests\\": "tests"
+            "Enniel\\Ami\\Tests\\": "tests"
         }
     },
     "scripts": {
