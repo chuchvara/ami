@@ -23,6 +23,10 @@
     "require": {
         "php": ">=5.6.0",
         "ext-mbstring": "*",
+        "illuminate/support": "*",
+        "illuminate/console": "*",
+        "illuminate/events": "*",
+        "illuminate/contracts": "*",
         "react/dns": "~0.4.3",
         "react/stream": "~0.4.6",
         "react/event-loop": "~0.4.2",
