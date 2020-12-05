@@ -32,7 +32,7 @@
         "react/event-loop": "~0.4.2",
         "react/socket-client": "~0.4.6",
         "clue/ami-react": "~0.3.1",
-        "dimifft/phppdu": "~1.3"
+        "dimifft/phppdu": "dev-master"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.0.0",
