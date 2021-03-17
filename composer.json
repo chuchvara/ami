@@ -1,12 +1,6 @@
 {
     "name": "dimifft/ami",
     "type": "library",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/DimiFFT/PHPPDU.git"
-        }
-    ],
     "description": "Provide asterisk ami to laravel",
     "keywords": [
         "Enniel",
@@ -31,8 +25,7 @@
         "react/stream": "~0.4.6",
         "react/event-loop": "~0.4.2",
         "react/socket-client": "~0.4.6",
-        "clue/ami-react": "~0.3.1",
-        "dimifft/phppdu": "*"
+        "clue/ami-react": "~0.3.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.0.0",
