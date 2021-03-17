@@ -1,13 +1,13 @@
 [![Build Status](https://travis-ci.org/enniel/ami.svg?branch=master)](https://travis-ci.org/enniel/ami)
 [![StyleCI](https://styleci.io/repos/62553643/shield?branch=master)](https://styleci.io/repos/62553643)
-# Enniel\Ami
+# Enniel\Ami  laravel 8+
 
 Easy control via [asterisk](http://www.asterisk.org/) manager interface (AMI).
 
 Installation and configuration
 ----------------
 
-To install as a [composer](https://getcomposer.org/) package to be used with Laravel 5, simply run:
+To install as a [composer](https://getcomposer.org/) package to be used with Laravel 8+, simply run:
 
 ```sh
 composer require "enniel/ami"
