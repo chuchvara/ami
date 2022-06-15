@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/enniel/ami.svg?branch=master)](https://travis-ci.org/enniel/ami)
 [![StyleCI](https://styleci.io/repos/62553643/shield?branch=master)](https://styleci.io/repos/62553643)
-# Enniel\Ami  laravel 8+
+# Enniel\Ami  laravel 9+
 
 Easy control via [asterisk](http://www.asterisk.org/) manager interface (AMI).
 
