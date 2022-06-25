@@ -36,10 +36,8 @@ abstract class AmiAbstract extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return mixed
      */
-    public function handle()
+    public function handle(): int
     {
         $options = $this->options();
         foreach (['host', 'port', 'username', 'secret'] as $key) {
@@ -50,6 +48,8 @@ abstract class AmiAbstract extends Command
         $client = $this->connector->create($options);
         $client->then([$this, 'client'], [$this, 'writeException']);
         $this->loop->run();
+
+        return 0;
     }
 
     public function client(Client $client)
